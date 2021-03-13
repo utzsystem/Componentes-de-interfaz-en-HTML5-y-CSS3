@@ -22,5 +22,7 @@ Visita Nuestro sitio WEB
 
 Si tienes dudas al implementar los componentes o si quiere contribuir y no sabes como, escríbenos en Twitter o Facebook
 
-- [Utz System](https://twitter.com/utz_system)
-- [Utz System](https://www.facebook.com/Utz-System-469198726471076/?ref=page_internal&mt_nav=0)
+- [Utz System Twitter](https://twitter.com/utz_system)
+- [Utz System Facebook](https://www.facebook.com/Utz-System-469198726471076/?ref=page_internal&mt_nav=0)
+- [Utz System Instagram](https://www.instagram.com/utzsystem/)
+

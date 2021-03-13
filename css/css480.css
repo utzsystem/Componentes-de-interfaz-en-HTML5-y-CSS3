@@ -1,0 +1,9 @@
+.padre_Menu {
+  transition: all 0.2s;
+}
+.padre_Menu ul{
+  margin-top: 50px;
+}
+.padre_Menu ul li{
+  margin-top: 15px;
+}

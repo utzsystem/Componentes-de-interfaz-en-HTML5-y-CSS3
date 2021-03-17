@@ -12,9 +12,9 @@
 /***************************************************/
 
 :root {
-  --background_0: #012538;
+  --color_0: #012538;
   --color_Blanco: white;
-  --background_Botones_0: #0092d9;
+  --color_1: #0092d9;
 }
 /***************************************************/
 /* ESTILOS GLOVALES                                */
@@ -88,9 +88,12 @@ html {
   align-items: center;
   height: 52px;
   width: 100%;
-  background: var(--background_0);
+  background: var(--color_0);
 }
-.padre_Barra .hijo_Barra a{
+.padre_Barra .hijo_Barra .none{
+  display: none;
+}
+.padre_Barra .hijo_Barra .logo{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,7 +121,7 @@ html {
 .padre_Barra .hijo_Barra .botton_lateral .header-button {
   width: 20px;
   height: 2px;
-  background: white;
+  background: var(--color_Blanco);
   position: absolute;
   top: 25px;
   transition: all 0.2s;
@@ -128,7 +131,7 @@ html {
   content: "";
   width: 20px;
   height: 2px;
-  background: white;
+  background: var(--color_Blanco);
   position: absolute;
   top: -0.6rem;
   transition: all 0.2s;
@@ -169,7 +172,7 @@ html {
   margin: 0;
   width: 100%;
   height: 50px;
-  background: var(--background_Botones_0);
+  background: var(--color_1);
   border-radius: 5px;
   text-decoration: none;
   color: var(--color_Blanco);
@@ -177,7 +180,7 @@ html {
 }
 .padre_Menu ul li a:hover{
   background: black;
-  border: 1px solid var(--background_Botones_0);
+  border: 1px solid var(--color_1);
   color: var(--color_Blanco);
 }
 .padre_Menu .padre_Redes{
@@ -198,7 +201,7 @@ html {
 }
 
 .checkbox:checked ~ .padre_Menu {
-  background: var(--background_0);
+  background: var(--color_0);
   left: 0;
 }
 .checkbox:checked + header .hijo_Barra label .header-button {

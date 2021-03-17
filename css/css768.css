@@ -1,3 +1,85 @@
-.padre_Barra{
-  display: none;
+/***************************************************/
+/* ESTILOS A LA BARRA DE MENU                      */
+/***************************************************/
+/***************************************************/
+/* SIN MENU LATERAL EN UNA LAPTOP                  */
+/***************************************************/
+/*.padre_Barra .hijo_Barra .botton_lateral{
+	display: none;
+}
+.padre_Barra .hijo_Barra .disponible{
+  width: 100px;
+  margin-left: calc(75% - 100px);
+}
+.padre_Barra .hijo_Barra .disponible_1{
+  margin-right: 20px;
+  width: 100px;
+	height: 40px;
+	background: var(--color_1);
+	border-radius: 5px;
+}
+.padre_Barra .hijo_Barra .none{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  color: var(--color_Blanco);
+  text-decoration: none;
+}
+.padre_Barra .hijo_Barra .disponible:hover{
+   color: var(--color_1);
+}
+.padre_Barra .hijo_Barra .disponible_1:hover{
+   border: 2px solid white;
+}
+
+.padre_Barra .hijo_Barra .logo {
+  margin-left: 15px;
+}*/
+
+
+/***************************************************/
+/* AGREGAR MENU LATERAL EN UNA LAPTOP               */
+/***************************************************/
+.padre_Barra .hijo_Barra .botton_lateral{
+  margin-right: 20px;
+}
+.padre_Barra .hijo_Barra .disponible{
+  width: 100px;
+  margin-left: calc(75% - 200px);
+}
+.padre_Barra .hijo_Barra .disponible_1{
+  width: 100px;
+  height: 40px;
+  background: var(--color_1);
+  border-radius: 5px;
+}
+.padre_Barra .hijo_Barra .none{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  color: var(--color_Blanco);
+  text-decoration: none;
+}
+.padre_Barra .hijo_Barra .disponible:hover{
+   color: var(--color_1);
+}
+.padre_Barra .hijo_Barra .disponible_1:hover{
+   border: 2px solid white;
+}
+
+.padre_Barra .hijo_Barra .logo {
+  margin-left: 15px;
+  width: 150px;
+}
+
+.padre_Menu {
+  width: 30%;
+  background: red;
+  transition: all 0.5s;
+}
+
+.checkbox:checked ~ .padre_Menu {
+  background: var(--color_1);
 }
